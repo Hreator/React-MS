@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./styles.css";
+import CSS from "./styles.module.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className={CSS.App}>
       <h1>Hello CodeSandbox</h1>
       <h2>Hello Start editing to see some magic happen!</h2>
     </div>
